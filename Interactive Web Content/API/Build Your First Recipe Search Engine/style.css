@@ -1,0 +1,30 @@
+ body {
+      background-color: #d1d5d4;
+      min-height: 100vh;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    .app-wrapper {
+      max-width: 1000px;
+    }
+
+    .recipe-card {
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .recipe-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .card-img-top {
+      object-fit: cover;
+      height: 200px;
+    }
+
+.instructions-box {
+  max-height: 260px;
+  overflow-y: auto;
+  padding-right: 4px;
+  font-size: 0.9rem;
+}
